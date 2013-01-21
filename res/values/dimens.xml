@@ -1,0 +1,46 @@
+<!-- 
+/*
+ * Copyright (C) 2013 The MaGDAA Project
+ *
+ * This file is part of the MaGDAA DaRMa Software
+ *
+ * MaGDAA DaRMa Software is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This source code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this source code; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+-->
+<resources>
+    <!-- default margins -->
+    <dimen name="ui_elem_margin_top">5sp</dimen>
+    <dimen name="ui_elem_margin_bottom">10sp</dimen>
+    <dimen name="ui_elem_margin_left">5sp</dimen>
+    <dimen name="ui_elem_margin_right">5sp</dimen>
+    
+    <!-- extra big margins -->
+    <!--
+    <dimen name="ui_elem_xl_margin_top">50sp</dimen>
+    <dimen name="ui_elem_xxl_margin_top">150sp</dimen>
+    <dimen name="ui_elem_xxl_margin_right">35sp</dimen>
+    -->
+    
+    <dimen name="ui_elem_xl_margin_right">25sp</dimen>
+    
+    <!-- extra big padding -->
+	<!--     
+	<dimen name="ui_elem_xl_padding_top">25sp</dimen>
+    <dimen name="ui_elem_xl_padding_bottom">25sp</dimen> 
+    -->
+    <dimen name="ui_elem_xl_padding_left">25sp</dimen>
+    <dimen name="ui_elem_xl_padding_right">25sp</dimen>
+    
+</resources>

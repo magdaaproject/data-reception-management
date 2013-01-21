@@ -1,0 +1,73 @@
+<!-- 
+/*
+ * Copyright (C) 2013 The MaGDAA Project
+ *
+ * This file is part of the MaGDAA DaRMa Software
+ *
+ * MaGDAA DaRMa Software is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This source code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this source code; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+-->
+<resources>
+    
+    <!-- application wide strings -->
+    <string name="system_application_name">MaGDAA - DaRMa</string>
+    <string name="system_application_default_label">MaGDAA - DaRMa</string>
+
+    <!-- launcher activity -->
+    <!-- launcher activity screen -->
+    <string name="launcher_ui_lbl_header">Data Reception Management</string>
+    
+    <string name="launcher_ui_btn_settings">Preferences</string>
+    <string name="launcher_ui_btn_contact">Email MaGDAA</string>
+    
+    <string name="launcher_ui_dialog_no_external_storage_message">External storage, such as an SD Card, must be enabled before using this application</string>
+    <string name="launcher_ui_dialog_no_external_storage_title">External Storage</string>
+    
+    <string name="launcher_ui_dialog_no_serval_mesh_message">The Serval Mesh software is not installed, please install it before using this application</string>
+    <string name="launcher_ui_dialog_no_serval_mesh_title">Serval Mesh</string>
+    
+    <string name="launcher_ui_dialog_no_odk_collect_message">The ODK Collect software is not installed, please install it before using this application</string>
+    <string name="launcher_ui_dialog_no_odk_collect_title">ODK Collect</string>
+ 
+    <string name="launcher_ui_lbl_device_id">Device ID: %s</string>
+    
+    <string name="launcher_menu_acknowledgements">Acknowledgements</string>
+    
+    <!-- preference header strings -->
+    <string name="preference_header_sam_title">MaGDAA SAM</string>
+    <string name="preference_header_sam_summary">Receieve and process MaGDAA SAM related files</string>
+    
+    <!-- preference strings -->
+    <string name="preference_screen_title_sam">MaGDAA SAM</string>
+    <string name="preferences_enable_sam_form_updates_title">Form update bundles</string>
+    <string name="preferences_enable_sam_form_updates_summary">Receive and process form update bundles</string>
+    
+    <string name="preferences_enable_sam_form_instances_title">Form instance bundles</string>
+    <string name="preferences_enable_sam_form_instances_summary">Receive and process form instance bundles</string>
+    
+    <!-- file system strings -->
+    <string name="system_file_path_temp">/magdaaproject/darma/temp/</string>
+    
+    <string name="system_file_path_odk">/odk/</string>
+    <string name="system_file_path_odk_forms">/odk/forms/</string>
+    <string name="system_file_path_odk_instances">/odk/instances/</string>
+    
+    <!-- system contact strings -->
+    <string name="system_contact_email">admin@magdaaproject.org</string>
+    <string name="system_contact_email_subject">Feedback on the MaGDAA DaRMa application</string>
+    <string name="system_contact_email_chooser">Send feedback email&#8230;</string>
+    <string name="system_acknowledgments_uri">http://wiki.magdaaproject.org/software:darma_acknowledgments</string>
+
+</resources>

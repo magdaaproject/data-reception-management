@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ * Copyright (C) 2013 The MaGDAA Project
+ *
+ * This file is part of the MaGDAA DaRMa Software
+ *
+ * MaGDAA DaRMa Software is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This source code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this source code; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.magdaaproject.darma"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+    
+    <!-- uses features -->
+    <uses-feature android:required="true" android:name="android.hardware.wifi"/>
+    
+    <!-- permissions -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> <!-- write files on external storage -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/> <!-- derive the device id -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/> <!-- derive the device id -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/system_application_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.magdaaproject.darma.LauncherActivity"
+            android:label="@string/system_application_default_label" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity 
+            android:name=".fragments.PreferencesActivity"
+            android:label="@string/system_application_default_label"/>
+        
+        <!-- gingerbread activities -->
+        <activity 
+            android:name=".gingerbread.PreferencesActivity"
+            android:label="@string/system_application_default_label"/>
+    </application>
+
+</manifest>
