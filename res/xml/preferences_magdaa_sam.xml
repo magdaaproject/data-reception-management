@@ -24,10 +24,12 @@
         <CheckBoxPreference
 			android:key="preferences_enable_sam_form_updates"
 			android:title="@string/preferences_enable_sam_form_updates_title"
-			android:summary="@string/preferences_enable_sam_form_updates_summary"/>
+			android:summary="@string/preferences_enable_sam_form_updates_summary"
+			android:defaultValue="true"/>
         <CheckBoxPreference
 			android:key="preferences_enable_sam_form_instances"
 			android:title="@string/preferences_enable_sam_form_instances_title"
-			android:summary="@string/preferences_enable_sam_form_instances_summary"/>
+			android:summary="@string/preferences_enable_sam_form_instances_summary"
+			android:defaultValue="true"/>
     </PreferenceCategory>
 </PreferenceScreen>
