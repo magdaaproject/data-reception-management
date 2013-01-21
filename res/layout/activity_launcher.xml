@@ -33,6 +33,19 @@
         style="@style/ui_elem_header"
         android:text="@string/launcher_ui_lbl_header" />
     
+    <TextView
+        android:id="@+id/launcher_ui_lbl_subheader"
+        style="@style/ui_elem_sub_header_1"
+        android:text="@string/launcher_ui_lbl_subheader"
+        android:layout_below="@id/launcher_ui_lbl_header" />
+    
+    <TextView
+        android:id="@+id/launcher_ui_lbl_about"
+        style="@style/ui_elem_sub_header_2"
+ 		android:gravity="left|center_horizontal"
+        android:text="@string/launcher_ui_lbl_about"
+        android:layout_below="@id/launcher_ui_lbl_subheader" />
+    
     <!-- device id -->
     <TextView
         android:id="@+id/launcher_ui_lbl_device_id"

@@ -26,8 +26,10 @@
     <string name="system_application_default_label">MaGDAA - DaRMa</string>
 
     <!-- launcher activity -->
-    <!-- launcher activity screen -->
     <string name="launcher_ui_lbl_header">Data Reception Management</string>
+    <string name="launcher_ui_lbl_subheader">Receive and Process Files From the Serval Mesh</string>
+    
+    <string name="launcher_ui_lbl_about">MaGDAA DaRMa receives and processes MaGDAA related files from the Serval Mesh network that have been shared via Rhizome.\n\nUse the Preferences button below to determine which files are received and processed.\n\nThis application runs all the time, it is not necessary to start it manually each time you use one of the MaGDAA suite of applications.</string>
     
     <string name="launcher_ui_btn_settings">Preferences</string>
     <string name="launcher_ui_btn_contact">Email MaGDAA</string>
